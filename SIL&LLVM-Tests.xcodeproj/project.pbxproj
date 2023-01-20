@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5D81AA46297B0F1A00B21C87 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D81AA45297B0F1A00B21C87 /* main.swift */; };
+		5D81AA52297B0F2700B21C87 /* magic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D81AA4C297B0F2600B21C87 /* magic.swift */; };
+		5D81AA53297B0F2700B21C87 /* ifelse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D81AA4D297B0F2600B21C87 /* ifelse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,13 @@
 /* Begin PBXFileReference section */
 		5D81AA42297B0F1A00B21C87 /* SIL&LLVM-Tests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "SIL&LLVM-Tests"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D81AA45297B0F1A00B21C87 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5D81AA4C297B0F2600B21C87 /* magic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = magic.swift; sourceTree = "<group>"; };
+		5D81AA4D297B0F2600B21C87 /* ifelse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ifelse.swift; sourceTree = "<group>"; };
+		5D81AA4E297B0F2700B21C87 /* ifelse.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ifelse.am; sourceTree = "<group>"; };
+		5D81AA4F297B0F2700B21C87 /* magic.rawsil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = magic.rawsil; sourceTree = "<group>"; };
+		5D81AA50297B0F2700B21C87 /* ifelse.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ifelse.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5D81AA51297B0F2700B21C87 /* magic.sil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = magic.sil; sourceTree = "<group>"; };
+		5D81AA54297B0F3800B21C87 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +50,7 @@
 		5D81AA39297B0F1A00B21C87 = {
 			isa = PBXGroup;
 			children = (
+				5D81AA54297B0F3800B21C87 /* README.md */,
 				5D81AA44297B0F1A00B21C87 /* SIL&LLVM-Tests */,
 				5D81AA43297B0F1A00B21C87 /* Products */,
 			);
@@ -57,9 +67,23 @@
 		5D81AA44297B0F1A00B21C87 /* SIL&LLVM-Tests */ = {
 			isa = PBXGroup;
 			children = (
+				5D81AA55297B0F9700B21C87 /* Playground Sample */,
+				5D81AA4E297B0F2700B21C87 /* ifelse.am */,
+				5D81AA4D297B0F2600B21C87 /* ifelse.swift */,
+				5D81AA4F297B0F2700B21C87 /* magic.rawsil */,
+				5D81AA51297B0F2700B21C87 /* magic.sil */,
+				5D81AA4C297B0F2600B21C87 /* magic.swift */,
 				5D81AA45297B0F1A00B21C87 /* main.swift */,
 			);
 			path = "SIL&LLVM-Tests";
+			sourceTree = "<group>";
+		};
+		5D81AA55297B0F9700B21C87 /* Playground Sample */ = {
+			isa = PBXGroup;
+			children = (
+				5D81AA50297B0F2700B21C87 /* ifelse.playground */,
+			);
+			path = "Playground Sample";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D81AA46297B0F1A00B21C87 /* main.swift in Sources */,
+				5D81AA53297B0F2700B21C87 /* ifelse.swift in Sources */,
+				5D81AA52297B0F2700B21C87 /* magic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -5,7 +5,8 @@
 //  Created by Azizbek Asadov on 20/01/23.
 //
 
-import Foundation
+@_exported import Swift
+@_exported import Darwin
 
-print("Hello, World!")
+func __main__(args: inout String) { /* main */ }
 

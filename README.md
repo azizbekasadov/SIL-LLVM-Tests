@@ -21,4 +21,4 @@
 
 - Any is the ultimate type-erasure in Swift, but it can be error-prone to use. Generics are usually a better alternative.
 
-- Pass a closure as a parameter that returns a value to defer evaluation of the argument until within the body of a function[…]”
+- Pass a closure as a parameter that returns a value to defer evaluation of the argument until within the body of a function[…]
